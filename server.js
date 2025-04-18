@@ -11,7 +11,7 @@ app.use(cors()); // Enable CORS for frontend requests
 app.use(bodyParser.json());
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost:27017/Auth', {
+mongoose.connect('mongodb+srv://saiyaswanths959:97AbVe8PipC5EHWu@cluster0.qns3r.mongodb.net/Auth', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 })
