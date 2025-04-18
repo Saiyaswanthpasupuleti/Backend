@@ -93,5 +93,5 @@ app.get('/user', async (req, res) => {
 
 // Server Start
 app.listen(3001, () => {
-  console.log('🚀 Server is running on http://localhost:3001');
+  console.log('🚀 Server is runningss s on http://localhost:3001');
 });
